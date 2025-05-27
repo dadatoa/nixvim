@@ -33,10 +33,10 @@
           nvim = nixvim'.makeNixvimWithModule nixvimModule;
         in
         {
-
+          ## this code snippet allow unfree packages to be installed directly from the flake.
           _module.args.pkgs = import nixpkgs {
-          inherit system;
-          config.allowUnfree = true;
+            inherit system;
+            config.allowUnfree = true;
           };
 
           checks = {

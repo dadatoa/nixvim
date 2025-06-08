@@ -26,7 +26,7 @@
     {
       mode = [ "n" ];
       key = "<C-n>";
-      action = "<cmd>Neotree toggle<cr>";
+      action = "<cmd>Neotree toggle float<cr>";
       options = { desc = "Open/Close Neotree"; };
     }
 

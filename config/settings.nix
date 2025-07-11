@@ -1,8 +1,8 @@
 {
   config = {
-    clipboard = {
-      providers.wl-copy.enable = true;
-    };
+    # clipboard = {
+    #   providers.wl-copy.enable = true;
+    # };
     opts = {
       # Show line numbers
       number = true;

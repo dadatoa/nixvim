@@ -2,7 +2,7 @@
   colorschemes.catppuccin = {
     enable = true;
     settings = {
-      flavour = "auto";
+      flavour = "frappe";
       integrations = {
 	cmp = true;
         gitsigns = true;

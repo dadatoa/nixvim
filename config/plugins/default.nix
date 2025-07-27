@@ -2,6 +2,7 @@
   imports = [
     ./lsp
     ./cmp.nix
+    ./floaterm.nix
     ./oil.nix
     ./telescope.nix
     ./treesitter.nix
